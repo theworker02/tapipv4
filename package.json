@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/tapipv4",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Tap lightweight ipv4 statistics from stdin samples.",
+  "bin": {
+    "tapipv4": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/tapipv4.git"
+  },
+  "homepage": "https://theworker02.github.io/tapipv4/",
+  "keywords": [
+    "tap",
+    "ipv4",
+    "stat",
+    "cli",
+    "toolkit"
+  ]
+}
